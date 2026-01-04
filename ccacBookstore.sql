@@ -234,7 +234,7 @@ SELECT
 FROM
     (
         SELECT
-            COUNT(product_id) AS product_count -- ¡Quita el espacio aquí!
+            COUNT(product_id) AS product_count
         FROM
             Products
         GROUP BY
@@ -280,7 +280,7 @@ ORDER BY
 -- ----------------------------------------------------------------------
 SELECT
     DATE_FORMAT(order_date, '%Y-%m') AS sale_month, 
-    SUM AS monthly_revenue
+    SUM(total_amount) AS monthly_revenue
 FROM
     Orders
 GROUP BY
