@@ -4,7 +4,7 @@ English Translation Comprehensive Relational Database Management System for a Bo
 Database Design & Relationships (ERD)
 This database follows a relational model designed to maintain data integrity and minimize redundancy.
 
-![Database Diagram](diagrama.png)
+![Database Diagram](diagram.png)
 
 One-to-Many Relationships:
 
